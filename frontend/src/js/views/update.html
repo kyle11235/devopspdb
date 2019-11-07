@@ -1,0 +1,27 @@
+<!--
+ Copyright (c) 2014, 2017, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+ <div class="oj-hybrid-padding jet">
+    <div>
+        <h3>价格维护</h1>
+
+        <oj-label style="margin-top: 10px;" for="text-input">航班价格</oj-label>
+        <oj-input-text style="margin-top: 10px;" id="text-input" value="{{value1}}"></oj-input-text>
+
+        <oj-label style="margin-top: 10px;" for="text-input">酒店价格</oj-label>
+        <oj-input-text style="margin-top: 10px;" id="text-input" value="{{value2}}"></oj-input-text>
+
+
+        <br>
+        <oj-button style="margin-top: 10px;" id='button1' on-click='[[buttonClick]]'>提交</oj-button>
+        <p class="bold" style="margin-top: 10px;">
+            <span id="message" data-bind='text: message'></span>
+        </p>
+    
+    </div>
+
+
+    
+  </div>
+  

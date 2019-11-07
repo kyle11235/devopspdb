@@ -1,0 +1,37 @@
+<!--
+ Copyright (c) 2014, 2017, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+ <div class="oj-hybrid-padding jet">
+  
+    <h3 style="margin-top:20px;">预定列表</h1>
+    <table class="reference">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>价格</th>
+            <th>航班名</th>
+            <th>酒店名</th>
+            <th>预定日期</th>
+            <th>客户ID</th>
+            <th>客户名</th>
+
+        </tr>
+        </thead>
+        <tbody data-bind="foreach: bookingList">
+        <tr>
+            <td data-bind="text: id"> </td>
+            <td data-bind="text: price"> </td>
+            <td data-bind="text: flightName"> </td>
+            <td data-bind="text: hotelName"> </td>
+            <td data-bind="text: bookingDate"> </td>
+            <td data-bind="text: customerID"> </td>
+            <td data-bind="text: customerName"> </td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    
+  </div>
+  
